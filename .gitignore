@@ -6,7 +6,6 @@ ENV/
 
 # Variáveis de ambiente
 .env
-.env.*
 *.env
 
 # Bytecode Python

@@ -1,6 +1,6 @@
 """
-Demo 1 — Analisador de Feedback / NPS
-Semana 05 | Imersão Alura + Santander | Especialista em IA
+Demo — Analisador de Feedback / NPS
+mersão Alura + Santander | Especialista em IA
 
 Fluxo:
   comentarios_teste.txt → analisar() via Groq → JSON por comentário → analise_feedback.csv
