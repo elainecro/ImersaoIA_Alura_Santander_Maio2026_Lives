@@ -56,3 +56,4 @@ Thumbs.db
 
 # ruff / linting
 .ruff_cache/
+code/gerar_pdfs_nps_exemplo.py
