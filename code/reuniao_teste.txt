@@ -1,0 +1,47 @@
+Reunião de Planejamento — Sprint 3
+Data: 15/06/2026
+Participantes: Ana (Product Manager), Carlos (Tech Lead), Mariana (Dev), Pedro (Dev), Lucia (QA)
+
+---
+
+Ana: Bom dia a todos. Vamos começar a reunião de planejamento da Sprint 3. O objetivo hoje é definir o escopo, alinhar prioridades e garantir que todo mundo saia com clareza sobre o que precisa ser entregue até sexta-feira da semana que vem.
+
+Carlos: Antes de entrar nas tarefas, queria atualizar sobre a dívida técnica que discutimos na semana passada. Identificamos um gargalo no serviço de notificações — ele está causando timeout em produção em picos de uso. Precisamos resolver isso ainda nessa sprint.
+
+Ana: Concordo. Vou subir a prioridade disso. Carlos, você consegue estimar o esforço?
+
+Carlos: Acho que dois dias para investigação e mais dois para a correção. Mariana, você toparia pegar isso?
+
+Mariana: Sim, posso pegar. Mas vou precisar de acesso ao ambiente de staging com carga real para testar. Pedro, você pode me ajudar a montar o cenário de teste?
+
+Pedro: Pode deixar. Tenho um script de carga que usei no projeto anterior, só preciso adaptar. Me dá até amanhã de manhã.
+
+Ana: Ótimo. Decisão: Mariana lidera a correção do timeout nas notificações, Pedro apoia com o ambiente de teste até amanhã. Prazo: quinta-feira.
+
+Lucia: Preciso entrar nessa conversa também. Quando a correção estiver pronta, quero pelo menos 24 horas para rodar os testes de regressão antes de subir para produção.
+
+Carlos: Faz sentido. Então Mariana entrega na quinta para a Lucia testar, e subimos na sexta se tudo ok.
+
+Ana: Perfeito. Próximo item — o novo módulo de relatórios. O cliente pediu para adiantar a entrega para o final dessa sprint. Estávamos planejando para a Sprint 4.
+
+Pedro: Isso é apertado. Estimei originalmente três dias só para o backend. Com o trabalho nas notificações, não sei se consigo encaixar.
+
+Carlos: E tem a parte de front também. A Mariana está tomada com as notificações. Não consigo ver como entregamos os relatórios completos em uma semana.
+
+Ana: Entendo. Vou falar com o cliente hoje e propor uma entrega parcial — só a parte de exportação em CSV, que é o que eles mais precisam agora. O dashboard visual fica para a Sprint 4.
+
+Carlos: Isso é muito mais viável. Só o CSV, Pedro consegue fazer em um dia e meio.
+
+Pedro: Sim, tranquilo.
+
+Ana: Decisão: entregamos apenas a exportação CSV dos relatórios nessa sprint. Dashboard visual vai para Sprint 4. Eu alinho com o cliente até o final do dia.
+
+Lucia: Uma última coisa — os testes automatizados do módulo de autenticação ainda têm três casos falhando desde a semana passada. Não é bloqueante agora, mas se não resolvermos vira problema nas próximas sprints.
+
+Carlos: Verdade. Vou olhar isso hoje à tarde. Deve ser coisa rápida de corrigir.
+
+Ana: Ótimo. Então resumindo: correção de timeout nas notificações com Mariana e Pedro, entrega parcial dos relatórios com Pedro, e Carlos resolve os testes de autenticação. Alguma dúvida?
+
+Todos: Não, tudo claro.
+
+Ana: Perfeito. Próxima reunião de alinhamento na quarta-feira às 14h. Obrigada a todos!

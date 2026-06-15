@@ -21,7 +21,7 @@ _crew_cache.mark_cache_breakpoint = lambda msg: msg
 
 PASTA_NPS = os.path.join(
     os.path.dirname(__file__),
-    "..", "..", "NPS"
+    "..", "NPS"
 )
 MODELO = "llama-3.3-70b-versatile"
 

@@ -19,7 +19,7 @@ from typing import Literal
 
 PASTA_NPS = os.path.join(
     os.path.dirname(__file__),
-    "..", "..", "NPS"
+    "..", "NPS"
 )
 
 # PydanticAI usa a string 'provedor:modelo' diretamente

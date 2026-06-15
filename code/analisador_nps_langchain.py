@@ -19,7 +19,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 PASTA_NPS = os.path.join(
     os.path.dirname(__file__),   # pasta onde este script está
-    "..", "..", "NPS"            # sobe dois níveis e entra em NPS/
+    "..", "NPS"                  # sobe um nível e entra em NPS/
 )
 MODELO = "llama-3.1-8b-instant"
 
